@@ -89,7 +89,6 @@ const athletes = [  {
     country: "South Korea",
   },
 ];
-
 let qadinMedalcilar=[];
 for(let i=0;i<athletes.length;i++ ){
   if(athletes.totalMedals>=10 && gender==="Female"){
