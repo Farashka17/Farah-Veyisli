@@ -89,12 +89,8 @@ const athletes = [  {
     country: "South Korea",
   },
 ];
-let qalib=[];
-for(let i=0;i<athletes.length;i++ ){
-  if(athletes.hasWorldRecord==true){
-  qalib.push(athletes[i])
-}
-}
-for(let i=o;i<qalib.length;i++){
-  console.log(qalib[i])
+
+let adlar=[];
+for(let i=0; i<athletes.length; i++){
+  console.log(adlar[athletes.name]);
 }
