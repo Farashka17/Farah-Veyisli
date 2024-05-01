@@ -90,7 +90,12 @@ const athletes = [  {
   },
 ];
 
-let adlar=[];
-for(let i=0; i<athletes.length; i++){
-  console.log(adlar[athletes.name]);
+let qadinMedalcilar=[];
+for(let i=0;i<athletes.length;i++ ){
+  if(athletes.totalMedals>=10 && gender==="Female"){
+  qadinMedalcilar.push(athletes[i])
+}
+}
+for(let i=o;i<qadinMedalcilar.length;i++){
+  console.log(qadinMedalcilar[i])
 }
